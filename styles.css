@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+@font-face {
+    font-family: tommy;
+    src: url(./MADE\ TOMMY\ Regular_PERSONAL\ USE.otf);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.navbar {
+    width: 12rem;
+    /* Adjust the width as needed */
+    background-color: #202020;
+    height: 100vh;
+    padding: 1rem;
+    box-shadow: 2px 0px 10px rgba(0, 13, 255, 0.642);
+}
+.hr-type{
+    height: .5rem;
+    width: 12rem;
+    background-color: transparent;
+    border-top: 1px solid white;
+}
+img{
+    width: 12rem;
+    height: 4rem;
+}
+.navbar a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: tommy;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #464646;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 1rem;
+}
+.settings{
+}
+h1{
+    top: 0;
+    color: #ffffff;
+    border-bottom: 1px solid white;
+}
