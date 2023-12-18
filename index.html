@@ -7,21 +7,171 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="navbar">
-            <img src="./blogb-removebg-preview.png">
-            <!-- Navbar content goes here -->
-            <a href="#">Home</a>
-            <a href="#">Explore</a>
-            <div class="hr-type"></div>
-            <a href="#">Notifications</a>
-            <a href="#">Profile</a>
-            <a href="#" class="settings">Settings</a>
-        </div>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!----======== CSS ======== -->
+        <link rel="stylesheet" href="style.css">
+        
+        <!----===== Boxicons CSS ===== -->
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+        
+        <!--<title>Dashboard Sidebar Menu</title>-->
+        </head>
+        
+        <body>
+            <nav class="sidebar close">
+                <header>
+                    <div class="image-text">
+        
+                        <div class="text logo-text">
+                            <span class="name">BlogBook.</span>
+                        </div>
+                    </div>
+        
+                    <i class='bx bx-chevron-right toggle'></i>
+                </header>
+        
+                <div class="menu-bar">
+                    <div class="menu">
+        
+                        <li class="search-box">
+                            <i class='bx bx-search icon'></i>
+                            <input type="text" placeholder="Search Ganes...">
+                        </li>
+        
+                        <ul class="menu-links">
+                            <li class="nav-link">
+                                <a href="#">
+                                    <i class='bx bx-home-alt icon'></i>
+                                    <span class="text nav-text">Dashboard</span>
+                                </a>
+                            </li>
+        
+                            <li class="nav-link">
+                                <a href="#">
+                                    <i class='bx bx-bell icon'></i>
+                                    <span class="text nav-text">Notifications</span>
+                                </a>
+                            </li>
+        
+                            <li class="nav-link">
+                                <a href="#">
+                                    <i class='bx bx-wallet icon'></i>
+                                    <span class="text nav-text">Profile</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </div>
+        
+                    <div class="bottom-content">
+                        <li class="">
+                            <a href="#">
+                                <i class='bx bx-log-out icon'></i>
+                                <span class="text nav-text">Logout</span>
+                            </a>
+                        </li>
+        
+                        <!-- <li class="mode">
+                            <div class="sun-moon">
+                                <i class='bx bx-moon icon moon'></i>
+                                <i class='bx bx-sun icon sun'></i>
+                            </div>
+                            <span class="mode-text text">Dark mode</span>
+        
+                            <div class="toggle-switch">
+                                <span class="switch"></span>
+                            </div>
+                        </li> -->
+        
+                    </div>
+                </div>
+        
+            </nav>
+        
+            <section class="home">
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img src="./mountain me.jpg" alt="Profile Picture">
+                    </div>
+                
+                    <div class="profile-info">
+                        <h2>Username</h2>
+                        <p>Bio: This is a simple profile page.</p>
+                    </div>
+                </div>
+                <!-- <div class="main-title">
+                    <h1>Explore page</h1>
+                    <div class="hr-type"></div>
+                </div> -->
+                <div class="myposty">
+                    <h1>Your Posts</h1>
+                </div>
+                <div class="post-container">
+                    <div class="card">
+                        <img src="./banana boat.jpg" alt="Your Image">
+                        <div class="card-content">
+                            <h2>Your Card Title</h2>
+                            <p>Your card text goes here. Customize this text as needed.</p>
+                        </div>
+                
+                    </div>
+                    <div class="card">
+                        <img src="./banana boat.jpg" alt="Your Image">
+                        <div class="card-content">
+                            <h2>Your Card Title</h2>
+                            <p>Your card text goes here. Customize this text as needed.</p>
+                        </div>
+                
+                    </div>
+                    <div class="card">
+                        <img src="./banana boat.jpg" alt="Your Image">
+                        <div class="card-content">
+                            <h2>Your Card Title</h2>
+                            <p>Your card text goes here. Customize this text as needed.</p>
+                        </div>
+                
+                    </div>
+                    <div class="card">
+                        <img src="./banana boat.jpg" alt="Your Image">
+                        <div class="card-content">
+                            <h2>Your Card Title</h2>
+                            <p>Your card text goes here. Customize this text as needed.</p>
+                        </div>
+                
+                    </div>
+                    <div class="card">
+                        <img src="./banana boat.jpg" alt="Your Image">
+                        <div class="card-content">
+                            <h2>Your Card Title</h2>
+                            <p>Your card text goes here. Customize this text as needed.</p>
+                        </div>
+                
+                    </div>
+                    <div class="card">
+                        <img src="./banana boat.jpg" alt="Your Image">
+                        <div class="card-content">
+                            <h2>Your Card Title</h2>
+                            <p>Your card text goes here. Customize this text as needed.</p>
+                        </div>
+                
+                    </div>
+                    <div class="card">
+                        <img src="./banana boat.jpg" alt="Your Image">
+                        <div class="card-content">
+                            <h2>Your Card Title</h2>
+                            <p>Your card text goes here. Customize this text as needed.</p>
+                        </div>
+                
+                    </div>
+                </div>
 
-        <div class="main-content">
-        <h1>Explore</h1>
-        </div>
-    </div>
-</body>
+            </section>
+            
+        
+            <script src="./script.js"></script>
+
+    </body>
 </html>
